@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.header {
+    --background-color: rgba(255, 255, 255, 0);
+    color: var(--default-color);
+    background-color: var(--background-color);
+    transition: all 0.5s;
+    z-index: 997;
+}
+i{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.w-43 h1{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: left;
+}
+.w-42 h1{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: left;
+}
+.w-30{
+    top: 320px;
+    background-color: white;
+    left: 654px;
+    animation-name: up-down;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both !important;
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+#cls1 h2{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.25rem;
+    line-height: 1.2;
+    margin: 0;
+    font-weight: 700;
+}
+#cls1 p{
+    font-family: "Ubuntu", sans-serif;
+}
+#card1:hover{
+    background-color: rgb(251, 250, 250);
+}
+
+#cls2 img{
+    border-radius: 20px;
+    position: relative;
+}
+.w-60{
+    font-family: "Ubuntu", sans-serif;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 800px;
+    left: 600px;
+    font-size: 16px;
+}
+#cls2 i{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #00a19e;
+    text-align: center;
+    padding-top: 13px;
+    margin-left: 70px;
+    margin-top: 0%;
+}
+.photo2{
+    width: 100%;
+    margin-top: 20px;
+}   
+#p1 img{
+    border-radius: 4px;
+}
+#p2 img{
+    border-radius: 4px;
+}
+.lf1 p{
+    color: white;
+    position: relative;
+    margin-left: 420px;
+}
+.lf1 #aq::after{
+    content: "Bootstrapmade";
+    position: absolute;
+    color: #2ea359;
+    left: 90px;
+}
+
+
+
+
+
+
+
+
+.w-100 h1{
+    font-family: "Ubuntu", sans-serif;
+}
+.w-full h2{
+    font-family: "Ubuntu", sans-serif;
+}
+.w-100 p{
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    font-size: 13px;
+}
+.w-15{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid gainsboro;
+}
+.w-15 i{
+    font-size: 20px;
+    margin-left: 10px;
+}
+h3{
+    font-family: "Ubuntu", sans-serif;
+}
+.w-52 ul{
+    padding-top: 10px;
+}
+.w-52 ul li{
+    padding-bottom: 5px;
+}
+.w-52 ul li a{
+    color:#ccc;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.w-52 ul li a:hover{
+    color: #00a19e;
+}
+.w-52 p{
+    color: rgb(239, 235, 235);
+    font-size: 14px;
+    padding-bottom: 3px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

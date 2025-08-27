@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Ladify.css">
+    <link rel="stylesheet" href="all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    
+    <header id="header" class="sticky top-0 bg-white shadow z-50">
+        <div class="w-full">
+        <div class="container mx-auto">
+            <div class="flex flex-row">
+                <div class="w-2/10 p-[10px]">
+                    <h2 class="font-serif font-semibold text-3xl">Landify</h2>
+                </div>
+
+                <div class="w-6/10 p-[10px]">
+                    <nav class="hidden md:flex space-x-4 items-center">
+                        <a href="#" class="text-gray-700 hover:text-[#00a19e] p-2">Home</a>
+                        <a href="#" class="text-gray-700 hover:text-[#00a19e] p-2">About</a>
+                        <a href="#" class="text-gray-700 hover:text-[#00a19e] p-2">Features</a>
+                        <a href="#" class="text-gray-700 hover:text-[#00a19e] p-2">Service</a>
+                        <a href="#" class="text-gray-700 hover:text-[#00a19e] p-2">Pricing</a>
+
+                        <!-- Dropdown Menu -->
+                        <div class="relative group">
+                            <button class="flex items-center text-gray-700 hover:text-teal-500">
+                            Dropdown
+                                <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                </svg>
+                            </button>
+
+                            <!-- First Level Dropdown -->
+                            <div class="absolute top-full mt-2 w-48 bg-white shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-200 z-20">
+                                <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Dropdown 1</a>
+
+                                <!-- Nested Dropdown -->
+                                <div class="relative group">
+                                    <button class="flex justify-between items-center w-full px-4 py-2 text-gray-700 hover:bg-gray-100">
+                                    Deep Dropdown
+                                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                        </svg>
+                                    </button>
+
+                                    <!-- Second Level Dropdown -->
+                                    <div class="absolute left-full top-0 mt-0 ml-1 w-48 bg-white shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-200 z-30">
+                                        <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Option 1</a>
+                                        <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Option 2</a>
+                                    </div>
+                                </div>
+
+                                <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Dropdown 2</a>
+                                <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Dropdown 3</a>
+                                <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Dropdown 4</a>
+                            </div>
+                        </div>
+                        <a href="#" class="text-gray-700 hover:text-[#00a19e] p-2">Contact</a>
+                    </nav>
+                </div>
+                
+                <div class="w-2/10 p-[10px] text-end">
+                    <button class="bg-[#00a19e] rounded-sm px-4 py-2">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>  
+
+    <div class="w-full bg-gradient-to-b from-white to-[#e6f8f7]">
+        <div class="container mx-auto">
+            <div class="flex flex-row gap-3">
+                <div class="w-[50%]">
+                    <h1 class="font-[Consolas] font-base text-5xl pt-10 text-[#193838]">Creating Digital Experiences That Matter</h1>
+                    <p class="font-light mt-5 mb-10 text-xl text-gray-500 text-lg font-light leading-relaxed">We craft beautiful, functional, and meaningful digital solutions that help businesses connect with their audiences in authentic ways.</p>
+                    <div class="btnn w-100">
+                        <div class="flex flex-row gap-3">
+                            <div class="w-50">
+                                <button class="bg-[#00a19e] rounded-sm px-6 py-3 text-white font-[arial]">Start Your Journey</button>
+                            </div>
+                            <div class="w-50">
+                                <div class="flex flex-row">
+                                    <i class="fa-regular fa-circle-play mr-3 ml-5 " style="color: #00a19e;"></i>
+                                    <p class="mt-3" style="color: black; font-family: Arial, Helvetica, sans-serif; font-size: 16px;">Watch Our Story</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row h-30 mt-10">
+                        <div class="flex flex-row">
+                            <div class="w-43 h-30">
+                                <h1 class="text-[#00a19e]">150+</h1>
+                                <p class="text-sm" style="color: rgb(199, 196, 196);">Projects Completed</p>
+                            </div>
+                            <div class="w-43 h-30">
+                                <h1 class="text-[#00a19e]">98%</h1>
+                                <p class="text-sm" style="color: rgb(199, 196, 196);">Client Satisfaction</p>
+                            </div>
+                            <div class="w-42 h-30">
+                                <h1 class="text-[#00a19e]">24/7</h1>
+                                <p class="text-sm" style="color: rgb(199, 196, 196);">Support Available</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-[50%] py-20">
+                    <img src="https://bootstrapmade.com/content/demo/Landify/assets/img/illustration/illustration-15.webp" alt="" 
+                    class="relative">
+                    <div class="w-30 shadow-md  rounded-sm p-3 absolute">
+                        <div class="flex flex-row">
+                            <i class="fa-solid fa-user-group" style="color: #00a19e; font-size: 15px;"></i>
+                            <p style="font-size: 13px; margin-left: 10px; margin-top: 5px;">Innovation</p>
+                        </div>
+                    </div>
+                    <div class="w-30 shadow-md  rounded-sm p-3 absolute" style="top: 20px; top: 143px; left: 821px;">
+                        <div class="flex flex-row">
+                            <i class="fa-solid fa-lightbulb" style="color: #00a19e; font-size: 15px;"></i>
+                            <p style="font-size: 13px; margin-left: 10px; margin-top: 5px;">Collabration</p>
+                        </div>
+                    </div>
+                    <div class="w-30 shadow-md  rounded-sm p-3 absolute" style="top: 302px; left: 1000px;" >
+                        <div class="flex flex-row">
+                            <i class="fa-solid fa-trophy" style="color: #00a19e; font-size: 15px;"></i>
+                            <p style="font-size: 13px; margin-left: 10px; margin-top: 5px;">Innovation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-full">
+        <div class="container mx-auto">
+            <div class="flex flex-row gap-3">
+                <div class="w-120" id="cls1">
+                    <button class="rounded-sm px-4 py-3 text-white font-[arial] mt-10" style="color: #00a19e; background-color: #9dd7d6; font-size: 14px;">ABOUT OUR COMPANY</button>
+                    <h2 class="pt-6">Tempor incididunt ut labore et dolore magna</h2>
+                    <p class="py-6">Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; color: rgb(193, 190, 190);">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+                    <div class="grid grid-cols-2 gap-4 pt-10 pb-10">
+                        <div class="h-20 w-55 rounded-sm" style="border: 1px solid gainsboro;" id="card1">
+                            <h3 style="color: #00a19e; font-size: 25px; text-align: center; margin-top: 5px;">250+</h3>
+                            <p style="text-align: center; color: rgb(199, 196, 196); font-size: 14px;">Projects Completed</p>
+                        </div>
+                        <div class="h-20 w-55 rounded-sm" style="border: 1px solid gainsboro;" id="card1">
+                            <h3 style="color: #00a19e; font-size: 25px; text-align: center; margin-top: 5px;">98%</h3>
+                            <p style="text-align: center; color: rgb(199, 196, 196); font-size: 14px;">Client Satisfaction</p>
+                        </div>
+                        <div class="h-20 w-55 rounded-sm" style="border: 1px solid gainsboro;" id="card1">
+                            <h3 style="color: #00a19e; font-size: 25px; text-align: center; margin-top: 5px;">24/7</h3>
+                            <p style="text-align: center; color: rgb(199, 196, 196); font-size: 14px;">Support Available</p>
+                        </div>
+                        <div class="h-20 w-55 rounded-sm" style="border: 1px solid gainsboro;" id="card1">
+                            <h3 style="color: #00a19e; font-size: 25px; text-align: center; margin-top: 5px;">12+</h3>
+                            <p style="text-align: center; color: rgb(199, 196, 196); font-size: 14px;">Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-130" id="cls2">
+                    <img src="https://bootstrapmade.com/content/demo/Landify/assets/img/about/about-8.webp" alt="" class="pt-10 ml-3">
+                    <div class="w-60 shadow-xl rounded-md p-5" style="background-color: white; color: black;">
+                        <div class="flex">
+                            <h4 style="font-size: 16px; ">Quality First</h4>
+                            <i class="fa-solid fa-trophy" style="color: white; font-size: 15px;"></i>
+                        </div>
+                        <p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: rgb(194, 190, 190);">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
+                    </div>
+                    <div class="photo2" style="margin-left: 15px;">
+                        <div class="flex flex-row gap-3">
+                            <div class="w-63" id="p1">
+                                <img src="https://bootstrapmade.com/content/demo/Landify/assets/img/about/about-11.webp" alt="">
+                            </div>
+                            <div class="w-64" id="p2">
+                                <img src="https://bootstrapmade.com/content/demo/Landify/assets/img/about/about-5.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <div class="w-full" style="background-color: #031a1a;">
+            <div class="container mx-auto">
+                <div class="flex flex-row gap-3">
+                    <div class="w-100 h-70 py-6">
+                        <h1 class="font-serif font-semibold text-3xl text-white">Landify</h1>  
+                        <p class="py-6">Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                        <div class="w-70 h-15">
+                            <div class="flex flex-row gap-3">
+                                <div class="w-15 h-15">
+                                    <i class="fa-brands fa-x-twitter" style="color: #d1d1d2;"></i>
+                                </div>
+                                <div class="w-15 h-15">
+                                    <i class="fa-brands fa-facebook" style="color: #b9babc;"></i>
+                                </div>
+                                <div class="w-15 h-15">
+                                    <i class="fa-brands fa-instagram" style="color: #aeb0b2;"></i>
+                                </div>
+                                <div class="w-15 h-15">
+                                    <i class="fa-brands fa-linkedin" style="color: #a5a6a7;"></i>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-52 h-70 py-6" style="color: white;">
+                        <h3 style="font-size: 17px;">Useful Links</h3>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Terms of Service</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="w-52 h-70 py-6" style="color: white;">
+                        <h3 style="font-size: 17px;">Our Services</h3>
+                        <ul>
+                            <li><a href="">Web Design</a></li>
+                            <li><a href="">Web Development</a></li>
+                            <li><a href="">Product Management</a></li>
+                            <li><a href="">Marketing</a></li>
+                            <li><a href="">Graphic Design</a></li>
+                        </ul>
+                    </div>
+                    <div class="w-52 h-70 py-6" style="color: white;">
+                        <h3 style="font-size: 17px; padding-bottom: 10px;">Contact Us</h3>
+                        <p>A108 Adam Street</p>
+                        <p>New York, NY 535022</p>
+                        <br>
+                        <p><b>Phone:</b> +1 5589 55488 55</p>
+                        <p><b>Email:</b> info@example.com</p>
+                    </div>
+                </div>
+                <div class="w-full h-20" style="background-color: #0a2626;">
+                    <p style="color: white; text-align: center;" class="py-3">@ <span>Copyright</span><strong>MyWebsite</strong><span>All Rights Reserved</span></p>
+                    <div class="lf1">
+                        <p id="aq">Designed by</p>
+                    </div>
+                </div> 
+                <br><br>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
